@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
     }
 
      fun setText() {
-
-
+         textCounter.text = count.toString()
     }
 }
