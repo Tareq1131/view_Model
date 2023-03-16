@@ -7,7 +7,7 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
     lateinit var textCounter:TextView
-    var count:Int = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -15,10 +15,7 @@ class MainActivity : AppCompatActivity() {
         textCounter = findViewById(R.id.textTV)
         setText()
     }
-    fun increment(v: View){
-        count++
-        setText()
-    }
+
 
      fun setText() {
          textCounter.text = count.toString()
