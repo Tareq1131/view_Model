@@ -8,13 +8,19 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-    
+
     <TextView
         android:id="@+id/textTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
         android:textSize="36sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="+"
+        android:onClick="increment"/>
 
 
 </LinearLayout>
