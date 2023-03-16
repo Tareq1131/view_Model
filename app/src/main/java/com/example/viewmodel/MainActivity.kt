@@ -2,6 +2,7 @@ package com.example.viewmodel
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
@@ -14,8 +15,13 @@ class MainActivity : AppCompatActivity() {
         textCounter = findViewById(R.id.textTV)
         setText()
     }
+    fun increment(v: View){
+        count++
+        setText()
+    }
 
      fun setText() {
-       
+
+
     }
 }
