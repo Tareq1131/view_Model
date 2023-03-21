@@ -24,6 +24,4 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-private fun ViewModelProvider.get(modelClass: Class<MainViewModel>): MainViewModel {
 
-}
